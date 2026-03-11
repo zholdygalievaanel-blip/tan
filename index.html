@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Karmeta — Финансовый автопилот</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>Karmeta</h1>
+<p>Финансовый автопилот для жизни без долгов</p>
+<button onclick="scrollToSection()">Начать</button>
+</header>
+
+<section class="problem">
+<h2>Почему люди попадают в долговую яму</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Хаос счетов</h3>
+<p>Kaspi, Halyk, кредиты и микрозаймы — нет общей картины.</p>
+</div>
+
+<div class="card">
+<h3>Кредитная спираль</h3>
+<p>Новые кредиты закрывают старые.</p>
+</div>
+
+<div class="card">
+<h3>Финансовая слепота</h3>
+<p>Люди не понимают куда уходят деньги.</p>
+</div>
+
+</div>
+</section>
+
+
+<section class="calculator" id="calc">
+
+<h2>Индекс финансового стресса</h2>
+
+<label>Доход (тенге)</label>
+<input type="number" id="income">
+
+<label>Платежи по кредитам</label>
+<input type="number" id="debt">
+
+<button onclick="calculateStress()">Рассчитать</button>
+
+<h3 id="result"></h3>
+
+</section>
+
+
+<section class="features">
+
+<h2>Как работает Karmeta</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Дашборд</h3>
+<p>Все счета и кредиты в одном месте.</p>
+</div>
+
+<div class="card">
+<h3>Активный бюджет</h3>
+<p>Каждый тенге получает свою цель.</p>
+</div>
+
+<div class="card">
+<h3>Долговой навигатор</h3>
+<p>Показывает какие кредиты закрывать первыми.</p>
+</div>
+
+</div>
+
+</section>
+
+
+<footer>
+
+<p>© 2026 Karmeta</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
